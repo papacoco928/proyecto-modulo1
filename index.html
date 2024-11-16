@@ -18,14 +18,77 @@
         </nav>
     </header>
     <main>
-        <h2>Tienda de componentes electrónicos</h2>
+        <h3>Tienda de componentes electrónicos</h3>
         <br>
         <p>Contamos con todo lo necesario para ayudarte a elaborar
         tus proyectos.</p> 
+        <br>
+        <div>
+            <h3>Contamos con:</h3>
+            <ul style="list-style: none;">
+               <li><h4>Elementos pasivos</h4></li> 
+               <ul>
+                    <li>Resistencias</li>
+                    <li>Capacitores</li>
+                    <li>Bobinas</li>
+                </ul>
+            </ul>
+            <ul style="list-style: none;">
+                <li><h4>Elementos activos</h4></li>
+                <ul>
+                    <li>Diodos</li>
+                    <li>Transistores</li>
+                    <li>Circuitos Integrados</li>
+                </ul>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>¡No Lo Pienses, Pide Tu Cotización!</h3>
+            <form>
+                <label>
+                    Nombre:
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Ingresa tu nombre"
+                        required
+                    >
+                </label>
+                <label>
+                    Correo:
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Ingresa tu correo"
+                        required
+                    >
+                </label>
+                <br>
+                <label>
+                    Código Postal (para la cotización de gastos de envío, opcional):
+                    <input
+                        type="number"
+                        name="ZC"
+                        placeholder="Código postal"
+                        minlength="5"
+                        maxlength="5"
+                    >
+                </label>
+                <br>
+                Ingresa en el area de abajo los productos y/o servicios de los que
+                requieres cotización. Trata de seguir el siguiente formato.
+                <textarea
+                    name="cotizacion_cliente"
+                    rows="20"
+                    cols="100"
+                ></textarea>
+            </form>
+        </div>
     </main>
     <footer>
         <div>
-            <h3>R-Electronics</h3>
+            <h2>R-Electronics</h3>
             <p>Todos los derechos de esta página estan reservados</p>
         </div>
         <div>
